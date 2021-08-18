@@ -10,4 +10,3 @@ after_success:
     - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
 
     - docker push navrang125/devops_task1
-
